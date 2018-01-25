@@ -11,9 +11,9 @@ def hello():
 	return '你好世界'
 
 # 携带参数
-@app.route('/user/<username>')
-def show_user_profile(username):
-	return "user %s"% username
+# @app.route('/user/<username>')
+# def show_user_profile(username):
+# 	return "user %s"% username
 
 # 传递整数参数
 @app.route('/post/<int:post_id>')
@@ -33,9 +33,9 @@ from flask import url_for
 @app.route('/login')
 def login():
 	pass
-# @app.route('/user/<username>')
-# def profile(username):
-# 	pass
+@app.route('/user/<username>')
+def profile(username):
+	pass
 with app.test_request_context():
 	print url_for('index')
 	print url_for('login')
