@@ -9,7 +9,7 @@ def index():
 @app.route('/hello')
 def hello():
 	return '你好世界'
-@app.route('user/<username>')
+@app.route('/user/<username>')
 def show_user_profile(username):
 	return "user %s"% username
 if __name__ == '__main__':
