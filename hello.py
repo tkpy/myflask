@@ -21,7 +21,7 @@ def post(post_id):
 	return "Post %d"% post_id
 
 # 唯一URL/重定向行为
-@app.route('/projects/hello')
+@app.route('/projects/')
 def projects():
 	return 'The projects page'
 @app.route('/about')
