@@ -10,7 +10,7 @@ def index():
 def hello():
 	return '你好世界'
 
-携带参数
+# 携带参数
 @app.route('/user/<username>')
 def show_user_profile(username):
 	return "user %s"% username
