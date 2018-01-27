@@ -6,7 +6,11 @@
     </head>
     <body>
         <center>
-            <h1>你好啊！</h1>
+        	{% if name %}
+            <h1> hello {{ name }}！</h1>
+        	{% else %}
+        	<h1>hello word</h1>>
+        	{% endif %}
         </center>
     </body>
 </html>

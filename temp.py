@@ -2,6 +2,7 @@ from flask import Flask
 from flask import render_template
 app = Flask(__name__)
 
+# 静态模板的访问
 @app.route('/hello/')
 @app.route('/hello/<name>')
 def hello(name=None):
