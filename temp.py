@@ -5,9 +5,9 @@ app = Flask(__name__)
 
 # 静态模板的访问
 @app.route('/hello/')
-@app.route('/hello/<name>')
-def hello(name=None):
-	return render_template('hello.html',name=name)
+@app.route('/hello/<haha>')
+def hello(haha=None):
+	return render_template('hello.html',name=haha)
 
 if __name__ == '__main__':
 	app.run(host='0.0.0.0',port=8008,debug=True)
