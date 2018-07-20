@@ -7,10 +7,11 @@ steem = Steem(keys=wif)
 # 主题
 tags = ['cn','life']
 # 内容
-with open('./liangzijinrong.jpg','r') as fp:
-	s = fp.read()
-	content = s
+f = open('./liangzijinrong.jpg','r',encoding='UTF-8')
+content = f.read()
 # 标题
 title = 'love'
-p = steem.post(title,content,author='changeday',tags=tags)
+author = 'changeday'
+permline = ''
+p = steem.post(title=title,body=content,author=author,tags=tags)
 print(p)
