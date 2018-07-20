@@ -8,10 +8,7 @@ steem = Steem(keys=wif)
 # 主题
 tags = ['cn','life']
 # 内容
-xiangdui = os.getcwd()
-juedui = os.path.abspath(xiangdui)
-path = os.path.join(juedui,'liangzijinrong.jpg')
-content = path
+content = {"image":'[https://ipfs.busy.org/ipfs/QmdXEj3eyCX76MGaZRL8vMr45ts6xBRnqo9W6D7D2fuNtZ]'}
 # 标题
 title = 'love'
 author = 'changeday'
