@@ -11,7 +11,7 @@ def bitalk_log(json_dict):
 		title = json_dict['title']
 		author = json_dict['author']
 		permlink = json_dict['permlink']
-		p = steem.post(title=title,body=content,author=author,tags=tags)
+		p = steem.post(title=title,body=content,author=author,tags=tags,permlink=permlink)
 		return p
 	except Exception as e:
 		print(e)
