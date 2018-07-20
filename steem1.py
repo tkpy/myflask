@@ -12,6 +12,6 @@ content = '来两张图片给大家' + "https://ipfs.busy.org/ipfs/QmdXEj3eyCX76
 # 标题
 title = 'love'
 author = 'changeday'
-permline = ''
-p = steem.post(title=title,body=content,author=author,tags=tags)
+permline = '29qby5-p2p'
+p = steem.post(title=title,body=content,author=author,tags=tags,permline=permline)
 print(p)
