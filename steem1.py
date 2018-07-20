@@ -7,7 +7,7 @@ steem = Steem(keys=wif)
 # 主题
 tags = ['cn','life']
 # 内容
-f = open('./liangzijinrong.jpg','r',encoding='UTF-8')
+f = open('./liangzijinrong.jpg','rb')
 content = f.read()
 # 标题
 title = 'love'
