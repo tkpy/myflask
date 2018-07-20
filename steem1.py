@@ -12,9 +12,10 @@ def bitalk_log(json_dict):
 		author = json_dict['author']
 		permlink = json_dict['permlink']
 		# 发帖
-		p = steem.post(title=title,body=content,author=author,tags=tags,permlink=permlink)
+		# p = steem.post(title=title,body=content,author=author,tags=tags,permlink=permlink)
 		# 回帖
-		s = steem.post(title='',body='这是我的回帖',author=author,reply_identifier='@{}/{}'.format(author,permlink))
+		p = ''
+		s = steem.post(title='',body='很好',author=author,reply_identifier='@{}/{}'.format(author,'4n3d2a'))
 		res = {'p':p,'s':s}
 		return res
 	except Exception as e:
