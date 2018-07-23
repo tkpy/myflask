@@ -31,5 +31,17 @@ json_dict = {
 res = bitalk_log(json_dict)
 print('发帖返回内容',res)
 
+res =  {
+	'ref_block_num':37897,
+	'ref_block_prefix':119761435,
+	'expiration':'2018-7-23T04:03:12',
+	'operation':[['comment',{'parent_author':'','parent_permlink':'cn',
+				'author':'changeday','permlink':'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+				'title':"python api test","body":'来两张图片给大家','json_metadata':'{"tags":["cn","life"]}'
+				}]],
+	'extensions':[],
+	'signatures':['200e16ba4fba4fd6f0e1fddeedjsaou09172404p1joau971308bihyu00yjt8u9n7']
+}
+
 
 
