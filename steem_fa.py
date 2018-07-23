@@ -22,7 +22,7 @@ def bitalk_log(json_dict):
 		print(e)
 json_dict = {
 		"tags": ['cn','life'],
-		"content": '来两张图片给大家'+'  '+'https://ipfs.busy.org/ipfs/QmdXEj3eyCX76MGaZRL8vMr45ts6xBRnqo9W6D7D2fuNtZ'+'  '+'https://ipfs.busy.org/ipfs/QmREWeH3kHQ4DXbS2DBxL3tmRkCkTkwzc6aCgmL4YPVA8r',
+		"content": '来两张图片给大家',
 		"title": "python api test",
 		"author": "changeday",
 		"permlink": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
